@@ -700,7 +700,7 @@ ol {
 }
 
 .modal-div {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-input-wrap {
@@ -725,6 +725,8 @@ ol {
 .form-input:focus + .modal-icon-svg {
   fill: #4d5ae5;
 }
+
+.modal-div-coment{margin-bottom: 16px;}
 
 .user-textarea {
   width: 100%;
