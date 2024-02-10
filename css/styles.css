@@ -840,6 +840,9 @@ ol {
 
 
 .check-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #4d5ae5;
   text-decoration-line: underline;
   margin-left: 3px;
