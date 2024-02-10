@@ -824,7 +824,7 @@ ol {
   fill: transparent; 
 }
 
-.check-label span {
+/*.check-label span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -835,7 +835,7 @@ ol {
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
   fill: transparent;
-}
+}*/
 
 
 
@@ -847,6 +847,8 @@ ol {
   text-decoration-line: underline;
   margin-left: 3px;
 }
+
+.modal-checkbox{transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .modal-checkbox:checked + .check-label span {
   background-color: #404bbf;
