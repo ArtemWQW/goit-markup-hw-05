@@ -541,11 +541,16 @@ ol {
 }
 /*================SUBSCRIBE-EMAIL=======================*/
 
+
+.div-subscribe-form{
+}
+
 .subscribe-email {
   display: block;
   justify-content: center;
   align-items: center;
   margin-left: 80px;
+  gap: 24px;
 }
 
 .subscribe-text {
@@ -556,6 +561,7 @@ ol {
   line-height: 1.15;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  text-align: left;
 }
 
 .subscribe-email-input {
