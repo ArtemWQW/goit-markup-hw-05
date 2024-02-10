@@ -811,6 +811,9 @@ ol {
 }
 
 .check-label span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -820,7 +823,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: transparent;
+  fill: #F4F4FD;
 }
 
 .user-privacy-span{ 
