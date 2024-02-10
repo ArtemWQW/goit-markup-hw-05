@@ -546,7 +546,7 @@ ol {
 }
 
 .subscribe-email {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 80px;
@@ -558,7 +558,7 @@ ol {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
   text-align: left;
@@ -569,11 +569,15 @@ ol {
   height: 40px;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 8px 16px;
+  padding-left: 16px;;
   margin-right: 24px;
   color: #ffffff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+ 
 }
 
 .subscribe-email-input::placeholder {
