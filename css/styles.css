@@ -834,9 +834,6 @@ ol {
   background-color: #ffffff;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   fill: transparent;
 }
 
@@ -851,4 +848,5 @@ ol {
 .modal-checkbox:checked + .check-label span {
   background-color: #404bbf;
   border: none;
+  fill: #F4F4FD;
 }
