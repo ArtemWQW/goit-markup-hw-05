@@ -497,6 +497,7 @@ ol {
   display: block;
   justify-content: center;
   align-items: center;
+  margin-right: auto;
 }
 
 .footer-social {
@@ -550,7 +551,6 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 80px;
   gap: 24px;
 }
 
@@ -573,7 +573,6 @@ ol {
   border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding-left: 16px;;
-  margin-right: 24px;
   color: #ffffff;
   font-size: 12px;
   line-height: 2;
@@ -605,7 +604,6 @@ ol {
   min-width: 165px;
   font-family: "Roboto", sans-serif; 
   cursor: pointer;
-  gap: 16px;
   border-radius: 4px;
   background: #4d5ae5;
   border: transparent;
@@ -716,6 +714,7 @@ ol {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
+  font-size: 12px;
 }
 
 .form-input:focus {
@@ -737,7 +736,6 @@ ol {
   padding: 8px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
-  margin-bottom: 16px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -820,6 +818,11 @@ ol {
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   fill: transparent; 
+  margin-right: 8px;
+}
+
+.modal-checkbox:focus + .check-label span {
+  border-color: #4D5AE5; 
 }
 
 /*.check-label span {
