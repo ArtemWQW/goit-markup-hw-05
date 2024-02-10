@@ -566,7 +566,7 @@ ol {
 }
 
 .subscribe-email-input {
-  max-width: 264px;
+  width: 264px;
   height: 40px;
   background-color: transparent;
   border-radius: 4px;
@@ -602,6 +602,9 @@ ol {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
+  min-width: 165px;
+  font-family: "Roboto", sans-serif; 
+  cursor: pointer;
   gap: 16px;
   border-radius: 4px;
   background: #4d5ae5;
