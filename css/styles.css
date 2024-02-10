@@ -700,7 +700,7 @@ ol {
 }
 
 .modal-div {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-input-wrap {
@@ -824,14 +824,14 @@ ol {
 }
 
 .user-privacy-span{ 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   fill: transparent; 
 }
 
