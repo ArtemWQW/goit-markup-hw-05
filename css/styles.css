@@ -542,7 +542,8 @@ ol {
 /*================SUBSCRIBE-EMAIL=======================*/
 
 
-.div-subscribe-form{
+.div-subscribe-form{margin-left: 0 auto;
+  display: block;
 }
 
 .subscribe-email {
